@@ -20,7 +20,7 @@ jobs:
       with:
         # optional: set the branch to checkout,
         # sync action checks out your 'target_sync_branch' anyway
-        ref:  main
+        ref:  master
         # REQUIRED if your upstream repo is private (see wiki)
         persist-credentials: false
 
@@ -30,9 +30,9 @@ jobs:
       id: sync
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.0
       with:
-        target_sync_branch: main
-        upstream_pull_args: --ff-only
-        target_branch_push_args: --force
+        target_sync_branch: master
+        # upstream_pull_args: --ff-only
+        # target_branch_push_args: --force
         git_config_pull_rebase: true
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
