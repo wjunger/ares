@@ -22,7 +22,7 @@ Check further instruction on how to install R packages from GitHub repositories 
 
 ## Notice
 
-The repository [NPEA/ares](https://github.com/NPEA/ares) is a synced fork of [wjunger/ares](https://github.com/wjunger/ares). If you wish to fork this project, please, fork the latter.
+The repository [NPEA/ares](https://github.com/NPEA/ares) is an updated fork and it is ready to use. However, if you wish to fork this project, fork the upstream [wjunger/ares](https://github.com/wjunger/ares).
 
 ## License
 
