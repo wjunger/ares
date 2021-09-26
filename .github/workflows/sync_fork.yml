@@ -33,7 +33,7 @@ jobs:
         target_sync_branch: master
         upstream_pull_args: --ff-only
         target_branch_push_args: --force
-        git_config_pull_rebase: false
+        git_config_pull_rebase: true
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
         upstream_sync_branch: master
