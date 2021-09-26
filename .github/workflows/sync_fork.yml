@@ -31,7 +31,7 @@ jobs:
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.0
       with:
         target_sync_branch: master
-        upstream_pull_args: --ff-only
+        #upstream_pull_args: --ff-only
         target_branch_push_args: --force
         git_config_pull_rebase: true
         # REQUIRED 'target_repo_token' exactly like this!
