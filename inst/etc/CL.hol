@@ -1,0 +1,14 @@
+# First column the holiday name and the second column the holiday date
+# Date format "dd/mm" is mandatory, otherwise it will cause an error.
+# Data start on the following line
+trabajo,01/05
+navales,21/05
+pedro_pablo,29/06
+carmen,16/07
+asuncion,15/08
+independencia,17/09
+ejercito,18/09
+raza,11/10
+todos_santos,31/10
+concepcion,08/12
+

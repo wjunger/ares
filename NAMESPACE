@@ -1,0 +1,80 @@
+export(
+	plot_event,
+	plot_pollutant,
+	plot_pacf,
+	plot_qq,
+	print_summary,
+	periodogram,
+	explore_temp,
+	explore_humid,
+	explore_meteorology,
+	exposure_response,
+	plot_envelope,
+	plot_fitted,
+	plot_residuals,
+	plot_constinfo,
+	fit_core,
+	estimate_risks,
+	print_risk,
+	plot_cook,
+	daily_stats,
+	setup,
+	gen_holidays,
+	import_data,
+	export_data,
+	fillup_hours,
+	save_plot,
+	pgps,
+	resdf,
+	dispersion,
+	get_residuals,
+	diagnostics,
+	l,
+	ma,
+	plot_risk,
+	stockplot,
+	bubbleplot,
+	count_na,
+	desc_data,
+	desc_vars,
+	ljungbox_test,
+	whitenoise_test,
+	periodogram_test,
+	pdf_report,
+	unload,
+	lspline,
+	sincos,
+	lagvar,
+	pdl,
+	pdlm,
+	plot.pdlm,
+	summary.pdlm,
+	print.summary.pdlm,
+	.aresEnv
+	)
+
+#	.aresEnv$ares.selection,
+#	.aresEnv$ares.weights,
+	
+# exportPattern("^[^\\.]") # export all for debugging
+
+import(foreign,gam,gplots,splines)
+importFrom("grDevices", "dev.copy", "dev.copy2eps", "dev.cur",
+    "dev.list", "dev.off", "dev.set", "jpeg", "pdf", "png")
+importFrom("graphics", "abline", "axis", "lines", "par", "plot",
+    "points", "rug", "segments", "title")
+importFrom("stats", "AIC", "acf", "as.formula", "coef", "ecdf",
+    "family", "fitted", "formula", "glm", "glm.control",
+    "hatvalues", "ks.test", "na.exclude", "na.omit", "na.pass",
+    "napredict", "pacf", "pchisq", "pnorm", "poisson", "punif",
+    "qnorm", "qqline", "qqnorm", "quantile", "quasipoisson",
+    "relevel", "resid", "rpois", "shapiro.test",
+    "smooth.spline", "summary.glm", "update", "vcov")
+importFrom("utils", "capture.output", "combn", "packageDescription",
+    "read.csv", "read.csv2", "read.delim", "read.delim2",
+    "read.table", "write.table")
+
+S3method("summary", "pdlm")
+S3method("print", "summary.pdlm")
+S3method("plot", "pdlm")
+
