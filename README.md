@@ -20,6 +20,10 @@ remotes::install_github("NPEA/ares")
 
 Check further instruction on how to install R packages from GitHub repositories at the [remotes package repository](https://github.com/r-lib/remotes).
 
+## Notice
+
+The repository [NPEA/ares](https://github.com/NPEA/ares) is a synced fork of [wjunger/ares](https://github.com/wjunger/ares). If you wish to fork this project, please, fork the latter.
+
 ## License
 
 GPL (>= 2)
