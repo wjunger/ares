@@ -14,6 +14,6 @@ jobs:
       - uses: tgymnich/fork-sync@v1.4
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
-          owner: NPEA
+          owner: $current_repo_owner 
           base: master
           head: master
