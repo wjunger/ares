@@ -1,4 +1,4 @@
-# ares ttt
+# ares
 
 It is an old albeit useful R library for time series analysis in air pollution epidemiology.
 
